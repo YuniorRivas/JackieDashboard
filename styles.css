@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0e8f8;
+}
+.main-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.page-title {
+  color: #4a2040;
+  font-size: 60px;
+  margin-bottom: 40px;
+}
+.button_container {
+  margin-bottom: 40px;
+}
+.filter-btn {
+  padding: 10px 20px;
+  background-color: #d291bc;
+  color: #fffdf0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: background-color 0.3s ease;
+    font-size: 16px;
+
+}
+.filter-btn:hover {
+  background-color: #bf7791;
+}
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 45%; /* Adjusted for wider cards */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px; /* Ensure consistent spacing */
+}
+
+.card img {
+  width: 100%;
+  height: 200px; /* Adjust height as needed */
+  object-fit: contain; /* Ensures the image fits within the frame without cropping */
+  background-color: #fff; /* Sets the background color around the images to white */
+  display: block; /* Ensures the image does not have extra space below it */
+  margin: auto; /* Centers the image within the card */
+  padding-top: 20px; /* Adds space at the top of the image */
+  background-color: #fffdf0;
+}
+
+
+.card-content {
+  font-size: 18px;
+  padding: 15px;
+  background-color: #fffdf0;
+}
+.rank {
+  display: inline-block;
+  background-color: #d291bc;
+  color: #fffdf0;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.place-name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #4a2040;
+}
+
+
+
+
